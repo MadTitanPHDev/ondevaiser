@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.cardAreaTotal {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.cardArea{
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/LogoOndeVaiSer.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.cardTxt{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: aquamarine;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0;
+    padding: 10px;
+}
