@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.headerAreaTotal{
+    background-color: #f1f1f1;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 100px;
+}
+
+.logoHeader{
+    display: flex;
+}
+
+.logoHeaderImg{
+    height: 150px;
+}
+
+.ondeAreaHeaderAll{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
