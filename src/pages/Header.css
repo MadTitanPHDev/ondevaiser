@@ -11,11 +11,14 @@
     display: flex;
     align-items: center;
     flex: 1;
-    margin-bottom: 100px;
+    
 }
 
 .logoHeader{
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
 }
 
 .logoHeaderImg{
@@ -27,4 +30,18 @@
     flex: 1;
     align-items: center;
     justify-content: center;
+}
+
+.cidadesAreaHeader{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    text-decoration: underline;
+    color: darkorange;
+}
+
+.ondeTxtHeader{
+    text-align: center;
+    padding: 40px;
 }

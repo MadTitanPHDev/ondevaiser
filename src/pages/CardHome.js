@@ -2,17 +2,21 @@
 import React from 'react';
 //importar o estilo
 import './CardHome.css';
-import LogoOndeVaiSer from '../images/LogoOndeVaiSer.png';
+import Chacara00 from '../images/chacara00.jpg';
 
 //função default que constroi os elementos da pagina
 function CardHome() {
     //retorna elementos visuais e componentes(pagina)
     return (
-        <a href='#' className='cardAreaTotal'>
-            <div className='cardArea'>
-                <h1 className='cardTxt'>Exemplo de texto</h1>
-            </div>
-        </a>
+
+        <div className='cardAreaAll'>
+            <a href='#' className='cardAreaTotal'>
+                <div className='cardArea'>
+                    <h1 className='cardTxt'>Exemplo de texto</h1>
+                </div>
+            </a>
+        </div>
+
     )
 }
 

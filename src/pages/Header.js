@@ -19,7 +19,7 @@ function Header() {
                     <h1 className='ondeTxtHeader'>Onde?</h1>
                 </div>
                 <select className='cidadesAreaHeader'>
-                    <option value="0">SELECIONE UMA OPÇÃO</option>
+                    <option value="0">SELECIONE A CIDADE</option>
                     <option value="1">SP - PRESIDENTE PRUDENTE</option>
                     <option value="2">SP - SANTO EXPEDITO</option>
                     <option value="3">SP - PIRAPOZINHO</option>

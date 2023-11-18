@@ -2,6 +2,8 @@
 import React from 'react';
 //importar o estilo
 import './Footer.css';
+import {FaFacebook, FaInstagram, FaTwitter, Fa} from 'react-icons/fa';
+
 
 //função default que constroi os elementos da pagina
 function Footer(){
@@ -20,9 +22,9 @@ function Footer(){
                     </div>
 
                     <div className='footerIconRedes'>
-                        <div className='iconF'></div>
-                        <div className='iconI'></div>
-                        <div className='iconX'></div>
+                        <div className='iconF'><FaFacebook size='2em'/></div>
+                        <div className='iconI'><FaInstagram size='2em'/></div>
+                        <div className='iconX'><FaTwitter size='2em'/></div>
                     </div>
                 </div>
 

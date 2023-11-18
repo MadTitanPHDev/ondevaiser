@@ -12,6 +12,9 @@
     flex-direction: column;
     align-items: center;
     flex: 1;
+    bottom: 0;
+    position: fixed;
+    
 }
 
 h1, h3{
@@ -28,9 +31,6 @@ h1, h3{
 }
 
 .iconF, .iconI, .iconX{
-    width: 40px;
-    height: 40px;
-    background-color: black;
     margin: 20px;
 }
 
