@@ -2,7 +2,7 @@
 import React from 'react';
 //importar o estilo
 import './Footer.css';
-import {FaFacebook, FaInstagram, FaTwitter, Fa} from 'react-icons/fa';
+import {FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa';
 
 
 //função default que constroi os elementos da pagina
