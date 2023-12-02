@@ -1,0 +1,55 @@
+.container {
+    background-color: #ccc;
+}
+
+.inputArea {
+    border: 1px solid #ccc;
+    height: 35px;
+    padding-left: 6px;
+    color: #00f;
+    font-weight: 700;
+    outline-color: coral;
+} 
+
+.campoArea {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 8px;
+}
+
+.formArea {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnArea input {
+    /* estiliza o botao */
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 17px;
+    border: 2px solid #fff;
+    background-color: goldenrod;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

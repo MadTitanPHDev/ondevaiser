@@ -56,7 +56,7 @@ function Formulario() {
                     <input type='text' {...register('login', {required: true})} placeholder='Login'/>
                     {errors.login && <span>Campo obrigatório</span>}
 
-                    <input type='password' {...register('senha', {required: true})} placeholder='Senha'/>
+                    <input type='password' {...register('senha', {required: true, minLength: 8})} placeholder='Senha'/>
                     {errors.senha && <span>Campo obrigatório</span>}
 
                     <button type='submit' >Entrar</button>

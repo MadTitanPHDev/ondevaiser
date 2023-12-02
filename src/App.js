@@ -3,14 +3,14 @@ import './App.css';
 // import Footer from './pages/Footer';
 // import Header from './pages/Header';
 // import CardHome from './pages/CardHome';
-// import CadastroPage from './pages/CadastroPage';
-import Formulario from './pages/Form';
+import CadastroPage from './pages/CadastroPage';
+// import Formulario from './pages/Form';
 
 function App() {
   return (
     <>
-      {/* <CadastroPage/> */}
-      <Formulario/>
+      <CadastroPage/>
+      {/* <Formulario/> */}
   
     </>
   );
